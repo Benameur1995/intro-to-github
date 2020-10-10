@@ -1,0 +1,11 @@
+animals = [camel, lion, deer, goose, bat, rabbit]
+
+x = input("Please enter the number of the habitat you would like to view: >")
+while x != "exit":
+    show = animals[int(x)]
+    print(show)
+    x = input("Please enter the number of the habitat you would like to view: >")
+
+else:
+    print("See you later!")
+    exit()
